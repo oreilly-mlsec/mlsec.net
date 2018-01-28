@@ -1,0 +1,52 @@
+body {
+  padding-top: 100px;
+}
+
+.separator {
+  margin-top: 36px;
+  margin-bottom: 36px;
+  padding: 18px 36px;
+  background: #eee;
+  border-radius: 6px;
+}
+
+.separator h3 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.navbar-logo-img {
+  height: 30px;
+  width: auto;
+  padding: 0 8px 4px !important;
+  color: #aaa;
+}
+
+.uniform-button {
+  font-size: 13px !important;
+  line-height: 26px !important;
+  padding: 0 12px !important;
+  vertical-align: top !important;
+  font-weight: bold;
+}
+
+.uniform-buttom-img {
+  vertical-align: top !important;
+  padding: 0 12px !important;
+  height: 28px;
+  width: auto;
+}
+
+.blockquote {
+  margin: 0;
+  vertical-align: middle;
+}
+
+.praise-spacing {
+  margin-top: 1em;
+}
+
+.light-footer {
+  color: #aaa;
+}
