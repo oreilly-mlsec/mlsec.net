@@ -2,6 +2,14 @@ body {
   padding-top: 100px;
 }
 
+section {
+  position: relative;
+}
+
+section img {
+  position: absolute;
+}
+
 .separator {
   margin-top: 36px;
   margin-bottom: 36px;
@@ -49,4 +57,26 @@ body {
 
 .light-footer {
   color: #aaa;
+}
+
+.top {
+  animation-name: fade;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+  animation-direction: alternate;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  51% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
 }
